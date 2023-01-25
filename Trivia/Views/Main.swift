@@ -7,14 +7,12 @@
 
 import SwiftUI
 
+//https://the-trivia-api.com/api/questions?limit=20
+//https://the-trivia-api.com/api/questions?limit=20&difficulty=easy
 struct Main: View {
     @State private var questions = [Question]()
     var body: some View {
         Text("Hello, World!")
-    }
-    func loadQuestions(difficulty : String = "", count : Int = 20) {
-        questions.removeAll()
-        
     }
 }
 
